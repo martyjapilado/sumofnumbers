@@ -1,7 +1,7 @@
 const testNums = [1,2,3,4];
 function sumFor(nums) {
   let result = 0;
-  for (let num of nums) {
+  for (let i = 0; i <= nums.length; i++) {
     result += num;
   }
   return result;
