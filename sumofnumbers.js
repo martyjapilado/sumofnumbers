@@ -21,7 +21,7 @@ function sumRecursion(nums) {
   if(nums.length == 0){
     return 0;
   } else {
-    return nums[0] += sumRecustion(nums.slice());
+    return nums[0] += sumRecursion(nums.slice());
   }
 }
 
