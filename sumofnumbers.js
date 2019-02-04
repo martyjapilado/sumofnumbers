@@ -24,10 +24,13 @@ function sumRecursion(nums, iterator,result) {
   }
 }
 
-function sumWhile(nums) {
+function sumTheSimpleWay(nums) {
   return _.reduce(nums, function (memo, num) {return memo + num;}, 0);
 }
 
+console.log(testNums);
+console.log(sumWhile(testNums));
+console.log(testNums);
 console.log(testNums);
 
 //22:36
