@@ -32,7 +32,7 @@ function sumTheSimpleWay(nums) {
 console.log(testNums);
 console.log(sumWhile(testNums));
 console.log(sumTheSimpleWay(testNums));
-console.log(sumRecursion(testNums,0,0));
+console.log(sumRecursion(testNums));
 console.log(sumFor(testNums));
 
 //22:36
