@@ -1,8 +1,8 @@
 const testNums = [1,2,3,4];
 function sumFor(nums) {
   let result = 0;
-  for (let i = 0; i <= nums.length - 1; i++) {
-    result += nums;
+  for (let i = 0; i < nums.length; i++) {
+    result += nums[i];
   }
   return result;
 }
@@ -10,7 +10,7 @@ function sumFor(nums) {
 function sumWhile(nums) {
   let result = 0;
   let iterator = 0;
-  while (iterator <= result){
+  while (iterator <= nums.length - 1){
     result += nums[iterator];
     iterator++;
   }
