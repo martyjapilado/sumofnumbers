@@ -17,11 +17,11 @@ function sumWhile(nums) {
   return result;
 }
 
-function sumRecursion(nums, iterator,result) {
-  if(iterator == nums.length){
-    return result;
+function sumRecursion(nums) {
+  if(num.length == 0){
+    return 0;
   } else {
-    return sumRecursion(nums, iterator++, result += nums[iterator]);
+    return nums[0] += sumRecustion(nums.slice());
   }
 }
 
