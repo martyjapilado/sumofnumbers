@@ -18,7 +18,7 @@ function sumWhile(nums) {
 }
 
 function sumRecursion(nums) {
-  if(num.length == 0){
+  if(nums.length == 0){
     return 0;
   } else {
     return nums[0] += sumRecustion(nums.slice());
